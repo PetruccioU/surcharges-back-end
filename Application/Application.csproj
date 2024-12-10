@@ -3,7 +3,24 @@
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
         <Nullable>enable</Nullable>
+        <OutputType>Library</OutputType>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>surcharges-back-end.Application</RootNamespace>
+        <AssemblyName>surcharges-back-end.Application</AssemblyName>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="SurchargeItem\Commands\CreateSurchargeItem\" />
+      <Folder Include="SurchargeItem\Commands\DeleteSurchargeItem\" />
+      <Folder Include="SurchargeItem\Commands\UpdateSurchargeItem\" />
+      <Folder Include="SurchargeList\Commands\CreateSurchargeList\" />
+      <Folder Include="SurchargeList\Commands\DeleteSurchargeList\" />
+      <Folder Include="SurchargeList\Commands\UpdateSurchargeList\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Properties\launchSettings.json" />
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
 
 </Project>
