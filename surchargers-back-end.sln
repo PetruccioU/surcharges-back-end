@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{11BAD609-DA07-4766-9A31-120AC5D36B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "Domain.UnitTests\Domain.UnitTests.csproj", "{E0721196-4E8E-4559-9956-A8CD384C1602}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA3C1E3E-01CD-460A-A7CE-1481934B71CF}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -33,10 +31,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0721196-4E8E-4559-9956-A8CD384C1602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0721196-4E8E-4559-9956-A8CD384C1602}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0721196-4E8E-4559-9956-A8CD384C1602}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0721196-4E8E-4559-9956-A8CD384C1602}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15974FD4-0056-4DCA-940D-3EDDC8386FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15974FD4-0056-4DCA-940D-3EDDC8386FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15974FD4-0056-4DCA-940D-3EDDC8386FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -67,7 +61,6 @@ Global
 		{7924A5C7-778D-438D-8039-88EC759743EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E0721196-4E8E-4559-9956-A8CD384C1602} = {11BAD609-DA07-4766-9A31-120AC5D36B2C}
 		{15974FD4-0056-4DCA-940D-3EDDC8386FE4} = {E4DE1793-C2AD-4681-BE2E-01DA01C7979B}
 		{611BCAA7-B3F5-46A8-BBF0-F277EC4368D0} = {E4DE1793-C2AD-4681-BE2E-01DA01C7979B}
 		{2B5692D6-27A3-41B5-8D8D-51621878665F} = {E4DE1793-C2AD-4681-BE2E-01DA01C7979B}
