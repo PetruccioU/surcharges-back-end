@@ -1,7 +1,7 @@
 ﻿using Domain.Common;
 namespace Domain.Entities;
 
-public class SurchargePlaceEntity: BaseEntity
+public class SurchargeEntity: BaseEntity
 {
     public double SurchargePercentage { get; set; }
     
@@ -13,7 +13,7 @@ public class SurchargePlaceEntity: BaseEntity
     
     public required Guid PlaceId { get; set; }
     
-    public SurchargePlaceEntity()
+    public SurchargeEntity()
     {
         Id = Guid.NewGuid();
         CreatedAt = DateTime.UtcNow;
